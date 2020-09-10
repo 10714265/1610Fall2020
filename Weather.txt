@@ -3,3 +3,4 @@
 95, sunny
 72, Mostly cloudy.
 81, Sunny
+67, cloudy
