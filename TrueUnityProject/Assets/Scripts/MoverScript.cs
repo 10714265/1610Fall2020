@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class MoverScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 5f;
+    public int score = 100;
+
+    public float health = 100;
+    public string password;
+    public string playername;
+    public int points = 0/100;
+
+    private void Update()
     {
-        Debug.Log("Hello World!");
+        var myInput = speed * Time.deltaTime * Input.GetAxis("Vertical");
+        var urInput = speed * Time.deltaTime * Input.GetAxis("Horizontal");
+        transform.Translate(urInput, myInput, 0);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Up()
     {
-        
+        transform.Translate(0,speed, 0);
+    }
+    
+    public void Down()
+    {
+        transform.Translate(0,-speed, 0);
     }
 }
+
