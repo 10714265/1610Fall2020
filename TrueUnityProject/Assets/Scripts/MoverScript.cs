@@ -8,7 +8,7 @@ public class MoverScript : MonoBehaviour
     public int score = 100;
 
     public float health = 100;
-    public string password;
+    public float password;
     public string playername;
     public int points = 0/100;
 
