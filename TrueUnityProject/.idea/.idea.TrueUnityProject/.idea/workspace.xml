@@ -36,10 +36,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600223774554</updated>
       <workItem from="1600223795849" duration="568000" />
-      <workItem from="1600224460894" duration="10617000" />
+      <workItem from="1600224460894" duration="15004000" />
     </task>
     <servers />
   </component>
