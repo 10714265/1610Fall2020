@@ -4,20 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoverScript : MonoBehaviour
+
 {
-    public float speed = 10f;
-    public int count;
-    public Vector3 rotationVector3;
-    private void Update()
-    {
-        count++;
-        if (count > 100)
-        {
-            print("Greater");
-        }
-        
-        rotationVector3.y = speed * Time.deltaTime;
-        transform.Rotate(rotationVector3);
-    }
+   public float moveSpeed;
+   private Vector3 moveDirection;
+   
+      public void Update()
+   {
+
+      if (Input.GetButton("Jump"))
+      {
+         moveDirection.x = moveSpeed * Time.deltaTime;
+         transform.Translate(moveDirection);
+      }
+      else
+      {
+         moveDirection.x = -moveSpeed * Time.deltaTime;
+      }
+      transform.Translate(moveDirection);
+   }
+
+
 }
 
