@@ -18,6 +18,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CharacterMover.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="Moverscript.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
