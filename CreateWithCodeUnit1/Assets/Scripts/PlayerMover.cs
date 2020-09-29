@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMover : MonoBehaviour
 {
     public GameObject player;
+    private Vector3 offset = new Vector3(0, 7, -9);
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,6 @@ public class PlayerMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position;
+        transform.position = player.transform.position + offset;
     }
 }
