@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 10.0f;
 
     public GameObject projectilePrefab;
+    private float topBound = 30;
         
     
     // Start is called before the first frame update
@@ -36,7 +37,11 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
-        
+
+        if (transform.position.z > topBound)
+        {
+            Destroy(gameObject);
+        }
         
     }
     
