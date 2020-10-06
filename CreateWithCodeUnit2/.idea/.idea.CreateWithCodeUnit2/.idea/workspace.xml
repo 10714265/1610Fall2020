@@ -10,9 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveFast.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveFast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -64,6 +68,7 @@
       <updated>1601402450741</updated>
       <workItem from="1601402572150" duration="615000" />
       <workItem from="1601579371918" duration="5086000" />
+      <workItem from="1601950724019" duration="3086000" />
     </task>
     <servers />
   </component>
