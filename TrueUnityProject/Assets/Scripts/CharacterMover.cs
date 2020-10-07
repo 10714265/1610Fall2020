@@ -17,8 +17,9 @@ public class CharacterMover : MonoBehaviour
    private void Update()
    {
       var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
-
-      yDirection += gravity * Time.deltaTime;
+      moveDirection.Set(moveSpeedInput,yDirection,0);
+      
+      yDirection += gravity*Time.deltaTime;
 
       if (controller.isGrounded && moveDirection.y < 0)
       {
@@ -30,10 +31,9 @@ public class CharacterMover : MonoBehaviour
          yDirection = jumpForce;
       }
       
-      moveDirection.Set(moveSpeedInput,0,0);
+      
       controller.Move(moveDirection*Time.deltaTime);
 
-      var movement = moveDirection * Time.deltaTime;
-      controller.Move(movement);
+     
    }
 }
