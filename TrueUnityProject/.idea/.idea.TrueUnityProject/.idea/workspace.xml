@@ -39,10 +39,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UnityEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
@@ -97,6 +97,7 @@
       <workItem from="1600707229548" duration="9038000" />
       <workItem from="1600806754989" duration="11265000" />
       <workItem from="1601664246156" duration="1289000" />
+      <workItem from="1602176239467" duration="3842000" />
     </task>
     <servers />
   </component>
