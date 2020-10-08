@@ -6,18 +6,18 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
    public CharacterController controller;
-   public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f;
+   public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 30f;
    
    
    
    private Vector3 moveDirection;
    private float yDirection;
 
-
+ 
    private void Update()
    {
       var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
-      moveDirection.Set(moveSpeedInput,yDirection,0);
+      moveDirection.Set(moveSpeedInput, yDirection,0);
       
       yDirection += gravity*Time.deltaTime;
 
