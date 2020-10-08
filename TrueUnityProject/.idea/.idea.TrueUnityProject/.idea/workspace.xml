@@ -30,6 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instancer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,7 +101,7 @@
       <workItem from="1600707229548" duration="9038000" />
       <workItem from="1600806754989" duration="11265000" />
       <workItem from="1601664246156" duration="1289000" />
-      <workItem from="1602176239467" duration="7581000" />
+      <workItem from="1602176239467" duration="7998000" />
     </task>
     <servers />
   </component>

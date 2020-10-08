@@ -20,6 +20,7 @@
         <e p="Scripts" t="Include">
           <e p="ApplyForces.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Destroyer.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="Moverscript.cs" t="Include" />
