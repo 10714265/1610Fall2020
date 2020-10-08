@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instancer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,6 +45,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +100,7 @@
       <workItem from="1600707229548" duration="9038000" />
       <workItem from="1600806754989" duration="11265000" />
       <workItem from="1601664246156" duration="1289000" />
-      <workItem from="1602176239467" duration="3842000" />
+      <workItem from="1602176239467" duration="7581000" />
     </task>
     <servers />
   </component>
