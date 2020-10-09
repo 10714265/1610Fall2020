@@ -12,6 +12,12 @@
           <e p="DOG.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
         </e>
+        <e p="Fantasy" t="Include">
+          <e p="BoS.cs" t="Include" />
+          <e p="NightKin.cs" t="Include" />
+          <e p="Pc.cs" t="Include" />
+          <e p="SuperMutant.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
