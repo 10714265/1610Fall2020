@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveFast.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveFast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +73,7 @@
       <workItem from="1601402572150" duration="615000" />
       <workItem from="1601579371918" duration="5086000" />
       <workItem from="1601950724019" duration="3942000" />
-      <workItem from="1602211123115" duration="2747000" />
+      <workItem from="1602211123115" duration="5023000" />
     </task>
     <servers />
   </component>

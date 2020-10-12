@@ -24,6 +24,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="DestroyBound.cs" t="Include" />
+          <e p="DetectCollisions.cs" t="Include" />
           <e p="MoveFast.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Spawn.cs" t="Include" />
