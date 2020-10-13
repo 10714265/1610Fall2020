@@ -18,6 +18,9 @@
           <e p="Pc.cs" t="Include" />
           <e p="SuperMutant.cs" t="Include" />
         </e>
+        <e p="NewScripts" t="Include">
+          <e p="TriggerEventsBehavior.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
@@ -27,6 +30,9 @@
               <e p="UnityAPIWrapper.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="ScriptableObjects" t="Include">
+          <e p="IntData.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="ApplyForces.cs" t="Include" />
