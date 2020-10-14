@@ -29,8 +29,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animals/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fantasy/SuperMutant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewScripts/TriggerEventsBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,9 +65,11 @@
         <option value="$PROJECT_DIR$/Assets/Fantasy/BoS.cs" />
         <option value="$PROJECT_DIR$/Assets/Fantasy/NightKin.cs" />
         <option value="$PROJECT_DIR$/Assets/Fantasy/Pc.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/NewScripts/TriggerEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +124,8 @@
       <workItem from="1600806754989" duration="11265000" />
       <workItem from="1601664246156" duration="1289000" />
       <workItem from="1602176239467" duration="14798000" />
-      <workItem from="1602613205666" duration="3879000" />
+      <workItem from="1602613205666" duration="4474000" />
+      <workItem from="1602631505164" duration="3312000" />
     </task>
     <servers />
   </component>

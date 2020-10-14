@@ -3,18 +3,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu]
-public class IntData : ScriptableObject
+public class FloatData : ScriptableObject
 {
-    public int value;
+    public float value;
 
-    public void UpdateValue(int number)
+    public void UpdateValue(float number)
     {
-        value += number;
-        
+        value += value + number;
     }
+
     public void DisplayValue(Image img)
     {
         img.fillAmount = value;
     }
-
 }
