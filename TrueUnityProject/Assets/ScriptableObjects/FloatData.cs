@@ -12,7 +12,7 @@ public class FloatData : ScriptableObject
         value += value + number;
     }
 
-    public void DisplayValue(Image img)
+    public void DisplayImage(Image img)
     {
         img.fillAmount = value;
     }
