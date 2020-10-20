@@ -51,6 +51,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="GameManager.cs" t="Include" />
           <e p="Tangent.cs" t="Include" />
         </e>
       </e>
