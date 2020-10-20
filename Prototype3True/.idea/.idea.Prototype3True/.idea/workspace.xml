@@ -36,10 +36,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLeft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RepeatBackground.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLeft.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +91,7 @@
       <workItem from="1602603646542" duration="7451000" />
       <workItem from="1602814983965" duration="2178000" />
       <workItem from="1603145265346" duration="1320000" />
-      <workItem from="1603211860691" duration="311000" />
+      <workItem from="1603211860691" duration="3343000" />
     </task>
     <servers />
   </component>
