@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
+    private Animator PlayerAnim;
 
     public float jumpForce = 10;
     public float gravityModifier;
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        PlayerAnim = GetComponent<Animator>();
         Physics.gravity *= gravityModifier;
         
 

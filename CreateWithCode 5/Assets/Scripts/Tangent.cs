@@ -7,11 +7,15 @@ using Random = UnityEngine.Random;
 public class Tangent : MonoBehaviour
 {
     private Rigidbody targetRb;
+    private GameManager gameManager;
     private float minSpeed = 12;
     private float maxSpeed = 16;
     private float maxTorque = 10;
     private float xRange = 4;
     private float ySpawnPos = -2;
+
+    public int scoreValue;
+    public ParticleSystem boomboomParticle;
         
         
     // Start is called before the first frame update
@@ -24,6 +28,8 @@ public class Tangent : MonoBehaviour
 
         transform.position = RandomSpawnPos();
 
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+
     }
 
     // Update is called once per frame
@@ -35,6 +41,8 @@ public class Tangent : MonoBehaviour
     private void OnMouseUp()
     {
         Destroy(gameObject);
+        gameManager.UpdateScore(scoreValue);
+        Instantiate(boomboomParticle, transform.position, boomboomParticle.transform.rotation);
     }
 
     private void OnTriggerEnter(Collider other)

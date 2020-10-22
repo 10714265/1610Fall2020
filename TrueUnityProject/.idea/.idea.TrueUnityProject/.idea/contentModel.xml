@@ -45,6 +45,7 @@
           <e p="Moverscript.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUp2.cs" t="Include" />
+          <e p="review.cs" t="Include" />
           <e p="UnityEvents.cs" t="Include" />
         </e>
       </e>

@@ -70,6 +70,7 @@
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/review.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +127,7 @@
       <workItem from="1602176239467" duration="14798000" />
       <workItem from="1602613205666" duration="4474000" />
       <workItem from="1602631505164" duration="4986000" />
+      <workItem from="1603399179301" duration="2372000" />
     </task>
     <servers />
   </component>
