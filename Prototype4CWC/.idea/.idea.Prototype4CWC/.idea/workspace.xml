@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +72,7 @@
       <workItem from="1602862803496" duration="4788000" />
       <workItem from="1603145730924" duration="671000" />
       <workItem from="1603212171438" duration="246000" />
-      <workItem from="1603413580636" duration="782000" />
+      <workItem from="1603413580636" duration="4257000" />
     </task>
     <servers />
   </component>
