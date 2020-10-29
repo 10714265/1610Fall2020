@@ -66,11 +66,11 @@
         <option value="$PROJECT_DIR$/Assets/Fantasy/NightKin.cs" />
         <option value="$PROJECT_DIR$/Assets/Fantasy/Pc.cs" />
         <option value="$PROJECT_DIR$/Assets/NewScripts/TriggerEventsBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/review.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +128,7 @@
       <workItem from="1602613205666" duration="4474000" />
       <workItem from="1602631505164" duration="4986000" />
       <workItem from="1603399179301" duration="2372000" />
+      <workItem from="1604011400066" duration="2059000" />
     </task>
     <servers />
   </component>

@@ -9,9 +9,6 @@ public class CharacterMover : MonoBehaviour
 {
    private CharacterController controller;
    public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 30f;
-   
-   
-   
    private Vector3 moveDirection;
    private float yDirection;
 
