@@ -7,6 +7,6 @@ public class Collec : MonoBehaviour
     public string singleString;
     public List<string> collectionList;
     
-    private void Start
+    private void Start;
     
 }
