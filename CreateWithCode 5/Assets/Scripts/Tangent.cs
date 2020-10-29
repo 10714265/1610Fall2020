@@ -40,14 +40,24 @@ public class Tangent : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Destroy(gameObject);
-        gameManager.UpdateScore(scoreValue);
-        Instantiate(boomboomParticle, transform.position, boomboomParticle.transform.rotation);
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            gameManager.UpdateScore(scoreValue);
+            Instantiate(boomboomParticle, transform.position, boomboomParticle.transform.rotation);
+        }
+        
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        if (!gameObject.CompareTag("Bad"));
+        {
+            gameManager.GameOver();
+        }
+        
     }
 
     Vector3 RandomForce()

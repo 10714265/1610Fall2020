@@ -29,13 +29,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DifficultyButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tangent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DifficultyButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +88,7 @@
       <updated>1603146749872</updated>
       <workItem from="1603146759851" duration="6744000" />
       <workItem from="1603395119016" duration="4720000" />
+      <workItem from="1603851781813" duration="6579000" />
     </task>
     <servers />
   </component>
