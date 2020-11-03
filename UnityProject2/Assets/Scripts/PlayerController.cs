@@ -8,11 +8,10 @@ public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
     public float forwardInput;
-    public float speed = 5.0f;
+    public float speed = 0.5f;
     
  
-    public float upInput;
-    
+   
 
     
     
@@ -32,9 +31,14 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        upInput = Input.GetAxis("Jump");
-        transform.Translate(Vector3.up * upInput * Time.deltaTime * speed);
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (transform.position.y <= 1.05f)
+            {
+                GetComponent<Rigidbody>().AddForce(Vector3.up * 1000);
+            }
+            
+        }
 
 
     } 
