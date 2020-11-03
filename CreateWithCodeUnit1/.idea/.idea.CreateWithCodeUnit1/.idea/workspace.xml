@@ -36,6 +36,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +87,7 @@
       <updated>1600748029751</updated>
       <workItem from="1600748112653" duration="16056000" />
       <workItem from="1604009581629" duration="811000" />
+      <workItem from="1604431607590" duration="653000" />
     </task>
     <servers />
   </component>
