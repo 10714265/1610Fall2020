@@ -11,7 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/HealthUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -19,9 +19,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Collec.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/HealthUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -72,7 +74,7 @@
       <updated>1603831479801</updated>
       <workItem from="1603831491164" duration="1252000" />
       <workItem from="1604002669342" duration="7960000" />
-      <workItem from="1604449473520" duration="8076000" />
+      <workItem from="1604449473520" duration="17062000" />
     </task>
     <servers />
   </component>

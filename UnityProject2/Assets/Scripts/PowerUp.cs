@@ -2,13 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PowerUp : MonoBehaviour
 {
-    public int scoreboi;
-    private void OnTriggerEnter(Collider other)
+    public UnityEvent mypowerup;
+    public int ammo = 100;
+    private void Update()
     {
-        scoreboi++;
-        print(scoreboi);
+        
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        ammo++;
+        print(ammo);
+        mypowerup.Invoke();
     }
 }
