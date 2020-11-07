@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CharacterMover : MonoBehaviour
 {
-    private CharacterController mover;
+    public CharacterController mover;
     public Vector3 direction;
 
     private void Update()
     {
-        mover.Move(direction);
+        var moveme = direction * Time.deltaTime;
+        mover.Move(moveme);
     }
 }
