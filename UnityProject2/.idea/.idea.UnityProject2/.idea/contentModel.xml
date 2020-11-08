@@ -19,6 +19,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="UnityEvents.cs" t="Include" />
