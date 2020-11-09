@@ -11,9 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,9 +25,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UnityEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionDetection.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +80,7 @@
       <updated>1603831479801</updated>
       <workItem from="1603831491164" duration="1252000" />
       <workItem from="1604002669342" duration="7960000" />
-      <workItem from="1604449473520" duration="20346000" />
+      <workItem from="1604449473520" duration="26902000" />
     </task>
     <servers />
   </component>

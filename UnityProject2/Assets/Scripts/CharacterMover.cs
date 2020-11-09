@@ -6,10 +6,11 @@ public class CharacterMover : MonoBehaviour
 {
     public CharacterController mover;
     public Vector3 direction;
+    public float moveSpeed = 3f;
 
     private void Update()
     {
-        var moveme = direction * Time.deltaTime;
-        mover.Move(moveme);
+        direction.Set(moveSpeed, 0, 0);
+        mover.Move(direction);
     }
 }
