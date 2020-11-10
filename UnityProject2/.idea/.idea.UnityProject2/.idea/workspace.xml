@@ -11,9 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instan.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -31,6 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instan.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +85,7 @@
       <updated>1603831479801</updated>
       <workItem from="1603831491164" duration="1252000" />
       <workItem from="1604002669342" duration="7960000" />
-      <workItem from="1604449473520" duration="35222000" />
+      <workItem from="1604449473520" duration="37048000" />
     </task>
     <servers />
   </component>
