@@ -19,7 +19,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
-          <e p="CollisionDetection.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
