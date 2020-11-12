@@ -17,15 +17,14 @@
             </e>
           </e>
         </e>
+        <e p="ScriptableObjects" t="Include">
+          <e p="IntData.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
-          <e p="ApplyForce.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
-          <e p="Destroy.cs" t="Include" />
-          <e p="Instan.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
-          <e p="PowerUp.cs" t="Include" />
-          <e p="UnityEvents.cs" t="Include" />
+          <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

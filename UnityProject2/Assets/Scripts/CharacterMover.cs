@@ -2,24 +2,29 @@
 using System;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
 {
-    public CharacterController mover;
-    public Vector3 direction, movement;
-    public float moveSpeed = 3f, moveupDown = 3f;
-    public float gravity = -9.81f;
-    public float jumpForce = 30f;
+    private CharacterController controller;
+    public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 10f;
+    
 
+    private Vector3 moveDirection;
     public float yDirection;
+
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
+
     private void Update()
     {
-        var movespeedInput = moveSpeed * Input.GetAxis("Horizontal");
-        var moveupdownInput = moveupDown * Input.GetAxis("Vertical");
-        direction.Set(movespeedInput, yDirection, moveupdownInput);
+        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
+        moveDirection.Set(moveSpeedInput,yDirection,0);
 
         yDirection += gravity * Time.deltaTime;
 
-        if (mover.isGrounded && direction.y < 0)
+        if (controller.isGrounded && moveDirection.y < 0)
         {
             yDirection = -1f;
         }
@@ -29,8 +34,8 @@ public class CharacterMover : MonoBehaviour
             yDirection = jumpForce;
         }
         
-        movement = direction * Time.deltaTime;
-        mover.Move(movement);
+        var movement = moveDirection * Time.deltaTime;
+        controller.Move(movement);
 
         
     }
