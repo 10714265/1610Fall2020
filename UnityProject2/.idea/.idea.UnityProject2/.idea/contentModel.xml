@@ -21,8 +21,11 @@
           <e p="IntData.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AttackScript.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="GameSwitch.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
+          <e p="OffensiveScript.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
