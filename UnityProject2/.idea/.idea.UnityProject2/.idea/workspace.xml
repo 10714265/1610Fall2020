@@ -42,12 +42,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OffensiveScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +102,7 @@
       <workItem from="1604002669342" duration="7960000" />
       <workItem from="1604449473520" duration="37048000" />
       <workItem from="1605198868113" duration="11209000" />
-      <workItem from="1605632250320" duration="6786000" />
+      <workItem from="1605632250320" duration="10748000" />
     </task>
     <servers />
   </component>
