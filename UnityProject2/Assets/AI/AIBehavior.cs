@@ -1,5 +1,4 @@
 ﻿
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -8,22 +7,21 @@ using UnityEngine.AI;
 public class AIBehavior : MonoBehaviour
 {
     private NavMeshAgent agent;
-    private Transform coordinates;
+    private Transform destination;
     private bool canPatrol = true;
     private int i = 0;
-    
-    public List<Transform> patrolpoints;
+    public List<Transform> patrolPoints;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        coordinates = transform;
+        destination = transform;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         canPatrol = false;
-        coordinates = other.transform;
+        destination = other.transform;
     }
 
     private void OnTriggerExit(Collider other)
@@ -32,12 +30,19 @@ public class AIBehavior : MonoBehaviour
     }
 
     
-    
     private void Update()
     {
-        agent.destination = coordinates.position;
+        agent.destination = destination.position;
         if (!canPatrol) return;
-
-        coordinates = patrolpoints[i];
+        
+        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        {
+            destination = patrolPoints[i];
+            i = (i + 1) % patrolPoints.Count;
+        }
     }
 }
+
+
+
+
