@@ -539,9 +539,10 @@ GameObject:
   - component: {fileID: 411590502}
   - component: {fileID: 411590501}
   - component: {fileID: 411590499}
-  - component: {fileID: 411590504}
   - component: {fileID: 411590500}
   - component: {fileID: 411590505}
+  - component: {fileID: 411590504}
+  - component: {fileID: 411590506}
   m_Layer: 8
   m_Name: Agent
   m_TagString: Untagged
@@ -582,8 +583,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.029303, y: 2, z: 8.349115}
-  m_Center: {x: -0.24980831, y: 0, z: -0.2331667}
+  m_Size: {x: 4.84289, y: 1.767086, z: 4.980446}
+  m_Center: {x: -0.030615807, y: -0.116456985, z: 0.2976551}
 --- !u!23 &411590501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -657,11 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6611e9be928704fac4443a26972192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  destination: {fileID: 0}
-  canPatrol: 1
-  i: 0
-  patrolpoints:
+  patrolPoints:
   - {fileID: 1119274057}
   - {fileID: 1015897951}
 --- !u!114 &411590505
@@ -679,6 +676,22 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!54 &411590506
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411590498}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &433722583
 GameObject:
   m_ObjectHideFlags: 0
