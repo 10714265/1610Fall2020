@@ -16,8 +16,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Collect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -49,6 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/AIBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Collect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +107,7 @@
       <workItem from="1604449473520" duration="37048000" />
       <workItem from="1605198868113" duration="11209000" />
       <workItem from="1605632250320" duration="18453000" />
-      <workItem from="1606845772418" duration="6606000" />
+      <workItem from="1606845772418" duration="12688000" />
     </task>
     <servers />
   </component>

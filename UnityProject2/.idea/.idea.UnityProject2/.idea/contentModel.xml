@@ -22,6 +22,7 @@
         </e>
         <e p="ScriptableObjects" t="Include">
           <e p="BoolData.cs" t="Include" />
+          <e p="Collect.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
@@ -29,6 +30,7 @@
         <e p="Scripts" t="Include">
           <e p="AttackScript.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Collection.cs" t="Include" />
           <e p="GameSwitch.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
