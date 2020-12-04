@@ -31,6 +31,7 @@
           <e p="AttackScript.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
+          <e p="FlipObject.cs" t="Include" />
           <e p="GameSwitch.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
