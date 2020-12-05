@@ -40,6 +40,7 @@
           <e p="NewMove.cs" t="Include" />
           <e p="OffensiveScript.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
+          <e p="RotateCamera.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>

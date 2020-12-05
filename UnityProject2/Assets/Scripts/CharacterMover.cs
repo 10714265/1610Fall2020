@@ -11,6 +11,7 @@ public class CharacterMover : MonoBehaviour
 
     private Vector3 moveDirection;
     public float yDirection;
+    public float rotationSpeed;
 
     private void Start()
     {
@@ -19,9 +20,12 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
+        
+       
+       
         var VertInput = moveSpeed * Input.GetAxis("Vertical");
-        moveDirection.Set(moveSpeedInput,yDirection,VertInput);
+        
+        moveDirection.Set(0,yDirection,VertInput);
 
         
         
@@ -33,10 +37,10 @@ public class CharacterMover : MonoBehaviour
             yDirection = -1f;
         }
        
-        //if (Input.GetButtonDown("Jump"))
-        //{
-            //yDirection = jumpForce;
-       // }
+        if (Input.GetButtonDown("Jump"))
+        {
+            yDirection = jumpForce;
+        }
         
         var movement = moveDirection * Time.deltaTime;
         controller.Move(movement);
