@@ -19,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AI/AIBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefensiveScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddForceBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +67,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FlipObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddForceBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoRoutineBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DefensiveScript.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +122,7 @@
       <workItem from="1604449473520" duration="37048000" />
       <workItem from="1605198868113" duration="11209000" />
       <workItem from="1605632250320" duration="18453000" />
-      <workItem from="1606845772418" duration="23184000" />
+      <workItem from="1606845772418" duration="24029000" />
     </task>
     <servers />
   </component>
