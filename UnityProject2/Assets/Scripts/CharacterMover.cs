@@ -23,9 +23,9 @@ public class CharacterMover : MonoBehaviour
         
        
        
-        var VertInput = moveSpeed * Input.GetAxis("Vertical");
+        //var VertInput = moveSpeed * Input.GetAxis("Vertical");
         
-        moveDirection.Set(0,yDirection,VertInput);
+        moveDirection.Set(0,yDirection,0);
 
         
         
