@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7e194aeb2ce86d4b9d3844a535f9db4, type: 3}
-  m_Name: New
+  m_Name: Collect 2
   m_EditorClassIdentifier: 
   ATKlvl: 1
-  Goldlvl: 10
-  art: {fileID: 21300000, guid: 7d1adb8fd0fb9614492d8a56a8c8572e, type: 3}
-  artcolor: {r: 0, g: 0, b: 0, a: 0}
+  Goldlvl: 20
+  art: {fileID: 21300000, guid: 3f2228bb7e793ed4687c0c5ab2113cd6, type: 3}
+  artcolor: {r: 0.9843138, g: 0.6901961, b: 0.24705884, a: 0}
