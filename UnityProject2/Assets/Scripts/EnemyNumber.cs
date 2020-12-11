@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ForLoop : MonoBehaviour
+public class EnemyNumber : MonoBehaviour
 {
     int numberEnemies = 3;
     

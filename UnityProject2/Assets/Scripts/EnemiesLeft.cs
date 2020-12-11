@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WhileLoop : MonoBehaviour
+public class EnemiesLeft : MonoBehaviour
 {
     int enemiesRemaining = 10;
     
