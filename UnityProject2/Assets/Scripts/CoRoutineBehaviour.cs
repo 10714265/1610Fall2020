@@ -8,12 +8,12 @@ public class CoRoutineBehaviour : MonoBehaviour
 {
 
     public UnityEvent startEvent, repeatEvent, endEvent;
-    public float holdTime, repeatholdTime=0.25f;
+    public float holdTime, repeatholdTime = 0.25f;
     public int counter = 3;
-    public Text countdown;
+    
     
 
-    public void runCoroutine()
+    public void RunCoroutine()
     {
         StartCoroutine(Coroutine());
     }
@@ -21,7 +21,7 @@ public class CoRoutineBehaviour : MonoBehaviour
     private IEnumerator Coroutine()
     {
         startEvent.Invoke();
-        print(1);
+       
         yield return new WaitForSeconds(holdTime);
         
         while (counter > 0)
@@ -35,6 +35,6 @@ public class CoRoutineBehaviour : MonoBehaviour
         }
         yield return new WaitForSeconds(holdTime);
         endEvent.Invoke();
-        print(2);
+        
     }
 }
