@@ -13,16 +13,17 @@ public class CharacterMover : MonoBehaviour
     public float yDirection;
     public float rotationSpeed;
 
+   
+
     private void Start()
     {
+        
         controller = GetComponent<CharacterController>();
     }
 
     private void Update()
     {
         
-       
-       
         //var VertInput = moveSpeed * Input.GetAxis("Vertical");
         
         moveDirection.Set(0,yDirection,0);
@@ -37,7 +38,7 @@ public class CharacterMover : MonoBehaviour
             yDirection = -1f;
         }
        
-        if (Input.GetButtonDown("Jump"))
+        if ((Input.GetButtonDown("Jump")))
         {
             yDirection = jumpForce;
         }
