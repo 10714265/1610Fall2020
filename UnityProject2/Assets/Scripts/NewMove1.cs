@@ -9,6 +9,8 @@ public class NewMove1 : MonoBehaviour
     public float jumpforce = 10;
     public float gravity;
     public bool isonground = true;
+    public bool hasPowerUp;
+    public float powerUpStrength = 350.0f;
     
     // Start is called before the first frame update
     void Start()
@@ -28,8 +30,36 @@ public class NewMove1 : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision collision)
     {
         isonground = true;
+
+        if (collision.gameObject.CompareTag("Enemy") && hasPowerUp)
+        {
+            Rigidbody playerRigidbody = collision.gameObject.GetComponent<Rigidbody>();
+            Vector3 upupandaway = (transform.position - collision.gameObject.transform.position);
+            Debug.Log("player Collided with " + collision.gameObject + " with powerup set to" + hasPowerUp);
+            playerRigidbody.AddForce(upupandaway * powerUpStrength, ForceMode.Impulse);
+            
+        }
+        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("PowerUp"))
+        {
+            hasPowerUp = true;
+            Destroy(other.gameObject);
+            StartCoroutine(PowerupCountdownRoutine());
+
+            IEnumerator PowerupCountdownRoutine()
+            {
+                yield return new WaitForSeconds(7);
+                hasPowerUp = false;
+            }
+        }
+        
+    }
+    
 }
