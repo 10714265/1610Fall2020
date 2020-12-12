@@ -9,15 +9,16 @@ public class FlipObject : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow & KeyCode.UpArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.Space))
         {
-            rotateValue = -60;
+            rotateValue = 60;
+        }
+        else
+        {
+            rotateValue = 0;
         }
         
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            rotateValue = +60;
-        }
-        transform.rotation = Quaternion.Euler(0, rotateValue, 0);
+        
+        transform.rotation = Quaternion.Euler(0, 0, rotateValue);
     }
 }
