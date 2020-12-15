@@ -19,9 +19,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AI/AIBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/coin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefensiveScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddForceBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewMove1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyNumber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,10 +33,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoRoutineBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttatchonTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemiesLeft.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/Collect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringAttach.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,13 +69,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/Collect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FlipObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddForceBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoRoutineBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DefensiveScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AttatchonTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI/NewAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemiesLeft.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyNumber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringAttach.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlipObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoRoutineBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewMove1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/coin.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +138,7 @@
       <workItem from="1605198868113" duration="11209000" />
       <workItem from="1605632250320" duration="18453000" />
       <workItem from="1606845772418" duration="24790000" />
-      <workItem from="1607202311328" duration="3485000" />
+      <workItem from="1607202311328" duration="31857000" />
     </task>
     <servers />
   </component>

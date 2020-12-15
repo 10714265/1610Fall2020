@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="AI" t="Include">
           <e p="AIBehavior.cs" t="Include" />
+          <e p="NewAI.cs" t="Include" />
         </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
@@ -30,17 +31,23 @@
         <e p="Scripts" t="Include">
           <e p="AddForceBehaviour.cs" t="Include" />
           <e p="AttackScript.cs" t="Include" />
+          <e p="AttatchonTrigger.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="coin.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="CoRoutineBehaviour.cs" t="Include" />
           <e p="DefensiveScript.cs" t="Include" />
+          <e p="EnemiesLeft.cs" t="Include" />
+          <e p="EnemyNumber.cs" t="Include" />
           <e p="FlipObject.cs" t="Include" />
           <e p="GameSwitch.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="NewMove.cs" t="Include" />
+          <e p="NewMove1.cs" t="Include" />
           <e p="OffensiveScript.cs" t="Include" />
           <e p="PlayerMover.cs" t="Include" />
           <e p="RotateCamera.cs" t="Include" />
+          <e p="StringAttach.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
