@@ -22,4 +22,11 @@ public class Collection : MonoBehaviour
             sprite.color = item.artcolor;
         }
     }
+
+    public void usecollec()
+    {
+        
+    }
 }
+
+
