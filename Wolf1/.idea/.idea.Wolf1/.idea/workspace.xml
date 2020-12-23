@@ -28,6 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ln30JjwNhyQOINNJ7Lht8MmT2r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -74,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608218819287</updated>
       <workItem from="1608218869103" duration="979000" />
+      <workItem from="1608400897592" duration="721000" />
     </task>
     <servers />
   </component>
@@ -92,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
