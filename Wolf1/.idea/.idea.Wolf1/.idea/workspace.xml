@@ -28,10 +28,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorOpenFirst.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorOpenFirst.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608218819287</updated>
       <workItem from="1608218869103" duration="979000" />
-      <workItem from="1608400897592" duration="721000" />
+      <workItem from="1608400897592" duration="4923000" />
     </task>
     <servers />
   </component>
